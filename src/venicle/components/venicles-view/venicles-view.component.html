@@ -1,0 +1,7 @@
+<app-venicle
+    *ngFor="let venicle of (venicles$ | async)"
+    [make]="venicle.make"
+    [model]="venicle.model"
+    [year]="venicle.year"
+    [type]="venicle.type"
+></app-venicle>
